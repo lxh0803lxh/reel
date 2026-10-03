@@ -1,0 +1,167 @@
+{
+  "Common": {
+    "reset": "重置",
+    "loading": "加载中"
+  },
+  "App": {
+    "versionLiteral": "版本",
+    "sourceCode": "源代码",
+    "footer": {
+      "techs": "由 WebRTC 以及其他出色的 Web 技术驱动。没有任何数据会以文件的形式存储在任何服务器上",
+      "author": "by 小翁同学 with love"
+    },
+    "languageSwitch": {
+      "headline": "Change Language",
+      "description": "Are you sure you want to switch the display language to English?",
+      "confirmText": "Yes",
+      "cancelText": "No",
+      "indicatorButton": "Language"
+    },
+    "backToHome": {
+      "headline": "回到首页",
+      "description": "您确定要回到首页吗？当前的会话将会中断。",
+      "confirmText": "确定",
+      "cancelText": "取消"
+    },
+    "settingsButton": "设置",
+    "settingsDialog": {
+      "title": "设置",
+      "confirmText": "关闭",
+      "backgroundImage": {
+        "title": "自定义背景图",
+        "upload": "上传图片",
+        "clear": "还原默认",
+        "error": {
+          "quotaExceeded": "图片文件太大了，即使经过压缩也无法存入浏览器的本地存储（限制约为 5MB）。请尝试使用更小的图片。"
+        }
+      },
+      "error": {
+        "headline": "配置保存出现错误",
+        "description": "您配置文件的格式不正确，因此不会被采用。错误信息："
+      }
+    }
+  },
+  "StartView": {
+    "title": "开始",
+    "description": "调整选项并开始分享您的视频流。",
+    "messages": {
+      "noRegistration": "无需注册，我们将为您创建临时会话。",
+      "or": "或者",
+      "toggleUnavailable": "选项不可用",
+      "invalidRoomIDParam": {
+        "headline": "链接无效",
+        "description": "分享链接中给出的房间 ID 无效。请核对来自您伙伴的链接是否被完整地复制。"
+      },
+      "connectingToTURN": "正在连接到服务器",
+      "turnNodeError": "请求信使节点失败：您可能无法在 NAT 受限网络间建立连接。",
+      "screenShareError": "请求桌面视频流失败。请检查您的浏览器是否自动拒绝了请求？",
+      "screenShareNotSupported": "请求桌面视频流失败。您的浏览器似乎不支持屏幕共享。",
+      "safariWarning": "检测到您正在使用 Safari。由于浏览器 API 限制，即使使用最新的 Safari，您也无法正常地与他人进行点对点推流（包括加载本地视频和屏幕共享）。若要获得完整的功能，请切换到基于 Chromium 或 Firefox 的浏览器。",
+      "firefoxWarning": "检测到您正在使用 Firefox。由于浏览器限制，在屏幕共享时，您无法同时分享系统音频。若要分享音频，请切换到基于 Chromium 的浏览器。",
+      "mobileOSWarning": "检测到您正在使用移动设备。由于操作系统和移动端浏览器的限制，您无法在移动端发起屏幕共享。若要发起屏幕共享，请在桌面端浏览器中打开此页面。"
+    },
+    "supportStatus": {
+      "full": "完全支持",
+      "partial": "功能不完整",
+      "none": "不支持"
+    },
+    "buttons": {
+      "uploadVideo": "加载视频文件",
+      "uploadVideoDescription": "从您的设备选择一个本地视频文件进行播放和分享。",
+      "createRoom": "创建房间",
+      "joinRoom": "加入房间",
+      "requestScreenShare": "开始共享屏幕",
+      "requestScreenShareDescription": "即时捕获并同步您的屏幕、窗口或浏览器标签页。"
+    },
+    "labels": {
+      "sourceURL": "源 URL",
+      "roomID": "房间 ID",
+      "selectSource": "选择媒体源",
+      "videoQuality": "视频质量"
+    },
+    "guide": {
+      "step1": "选择点对点模式或同源模式",
+      "step2": "上传文件、屏幕共享或提供视频链接",
+      "step3": "创建房间并将链接分享给伙伴"
+    },
+    "modes": {
+      "name": {
+        "host": "发送者模式",
+        "client": "接收者模式"
+      },
+      "description": {
+        "host": "您可以创建房间并与他人实时共享媒体。",
+        "client": "您可以加入他人的房间并同步观赏媒体。"
+      },
+      "combinedDescription": {
+        "hostP2P": "从您的设备选择视频文件或共享屏幕，与伙伴实时同步观赏。",
+        "hostSameOrigin": "输入网络视频的播放链接，与伙伴一同从网址加载视频并观赏。",
+        "client": "输入伙伴分享的房间 ID，即可加入 TA 的会话并同步观赏。"
+      }
+    },
+    "methods": {
+      "name": {
+        "p2p": "点对点模式",
+        "sameOrigin": "同源模式"
+      }
+    },
+    "roomIDInput": {
+      "helper": {
+        "empty": "请提供一个房间 ID。",
+        "invalid": "房间 ID 格式不正确。"
+      }
+    }
+  },
+  "StreamView": {
+    "title": "流式传输",
+    "hint": {
+      "host": "链接已复制。请您将号码或链接发送给您的伙伴。",
+      "client": "请耐心等待。正在全球互联网寻找您的伙伴..."
+    },
+    "roleDescription": {
+      "host": "房间",
+      "client": "成员"
+    },
+    "messages": {
+      "roomID": "您的{roleDescription}号：{roomID}",
+      "connected": "已连接",
+      "disconnected": "未连接",
+      "pushing": "正在推送{m}视频流",
+      "watching": "正在观看视频流",
+      "joining": "正在加入伙伴",
+      "waiting": "正在等待伙伴",
+      "measuringLiteral": "正在测量",
+      "sameOriginLiteral": "同源",
+      "p2pLiteral": "点对点",
+      "delta": "视频进度差异",
+      "latency": "网络延迟",
+      "shareLink": "分享链接",
+      "networkInfo": "网络信息",
+      "copiedToClipboard": "已复制到剪切板",
+      "selectionReset": "媒体源已重置",
+      "connectionRestricted": "连接受限：信使节点不可用",
+      "voiceCallEnabled": "语音通话已启用",
+      "voiceCallDisabled": "语音通话已禁用",
+      "shutdown": {
+        "headline": "会话结束",
+        "description": "您的伙伴结束了会话。您将被重定向至首页。",
+        "confirmText": "好"
+      }
+    },
+    "labels": {
+      "voiceToggle": "语音通话",
+      "videoQuality": "视频质量"
+    },
+    "qualityPresets": {
+      "low": "流畅",
+      "medium": "清晰",
+      "high": "高清",
+      "ultra": "超清",
+      "unlimited": "自动"
+    },
+    "qualityDescriptions": {
+      "detail": "分辨率 {resolution}，{fps} 帧/秒，最高 {bitrate}",
+      "unlimited": "不限制分辨率、帧率和码率，由浏览器自行决定"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ReelSync",
+  "short_name": "ReelSync",
+  "description": "随时随地与他人同步观看视频或共享屏幕。无需注册，即点即用。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafdfd",
+  "theme_color": "#666666",
+  "icons": [
+    {
+      "src": "icon_64x.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_128x.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_256x.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_512x.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

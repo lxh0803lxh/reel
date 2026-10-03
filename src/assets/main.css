@@ -1,0 +1,33 @@
+@import "./base.css";
+
+:root {
+  --topbar-height: 60px;
+}
+
+#app {
+  margin: 0;
+  padding-top: var(--topbar-height);
+  font-weight: normal;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-c {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.monospace {
+  font-family:
+    ui-monospace, "Jetbrains Mono", "Maple Mono NF CN", "Cascadia Code", "Source Code Pro", Menlo,
+    Consolas, "DejaVu Sans Mono", monospace;
+  user-select: all;
+}
+
+mdui-dialog {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}

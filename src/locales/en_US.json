@@ -1,0 +1,166 @@
+{
+  "Common": {
+    "reset": "Reset",
+    "loading": "Loading"
+  },
+  "App": {
+    "versionLiteral": "Version",
+    "sourceCode": "Source Code",
+    "footer": {
+      "techs": "Powered by WebRTC and other awesome web technologies. No data is stored on any server.",
+      "author": "Crafted by 小翁同学 with love."
+    },
+    "languageSwitch": {
+      "cancelText": "否",
+      "confirmText": "是",
+      "description": "您确定要将显示语言切换到中文吗？",
+      "headline": "切换语言",
+      "indicatorButton": "语言"
+    },
+    "backToHome": {
+      "headline": "Back to Home",
+      "description": "Are you sure you want to go back to the home page? The current session will be terminated.",
+      "confirmText": "Confirm",
+      "cancelText": "Cancel"
+    },
+    "settingsButton": "Settings",
+    "settingsDialog": {
+      "title": "Settings",
+      "confirmText": "Close",
+      "backgroundImage": {
+        "title": "Custom Background",
+        "upload": "Upload Image",
+        "clear": "Reset",
+        "error": {
+          "quotaExceeded": "The image file is too large to be saved in the browser's local storage (limit is about 5MB), even after compression. Please try a smaller image."
+        }
+      },
+      "error": {
+        "headline": "Error saving configuration",
+        "description": "The configuration format is incorrect and could not be loaded. Error message: "
+      }
+    }
+  },
+  "StartView": {
+    "title": "Start",
+    "description": "Adjust the options to suit your needs and start sharing your media stream.",
+    "messages": {
+      "noRegistration": "No registration required. A temporary session will be created for you.",
+      "or": "or",
+      "toggleUnavailable": "Unavailable",
+      "invalidRoomIDParam": {
+        "description": "The Room ID in the URL is invalid. Please check if the share link was copied correctly.",
+        "headline": "Invalid URL"
+      },
+      "connectingToTURN": "Connecting",
+      "turnNodeError": "Failed to request relay nodes (TURN/STUN): Connection between NAT-restricted networks may be limited.",
+      "screenShareError": "Failed to access the video stream. Please check your browser's privacy or permission settings.",
+      "screenShareNotSupported": "Failed to request the video stream. Screen sharing is not supported by your browser.",
+      "safariWarning": "Safari detected. \nDue to browser API limitations, some peer-to-peer features (like local video sharing and screen capture) may not work correctly, even in the latest Safari version. \nTo get the full functionality, please use a Chromium or Firefox-based browser.",
+      "firefoxWarning": "Firefox detected. Due to browser limitations, you cannot share system audio while screen sharing. To share audio, please switch to a Chromium-based browser.",
+      "mobileOSWarning": "Mobile device detected. Due to operating system and mobile browser limitations, screen sharing is not available on mobile platforms. To initiate screen sharing, please use a desktop browser."
+    },
+    "supportStatus": {
+      "full": "Full support",
+      "partial": "Partial support",
+      "none": "Not supported"
+    },
+    "buttons": {
+      "uploadVideo": "Open Local Video",
+      "uploadVideoDescription": "Choose a local video file from your device to play and share.",
+      "createRoom": "Create a Room",
+      "joinRoom": "Join a Room",
+      "requestScreenShare": "Start Screen Sharing",
+      "requestScreenShareDescription": "Instantly capture and sync your screen, a specific window, or a browser tab."
+    },
+    "labels": {
+      "roomID": "Room ID",
+      "sourceURL": "Source URL",
+      "selectSource": "Select Media Source"
+    },
+    "guide": {
+      "step1": "Choose Peer-to-Peer or Same-Origin mode",
+      "step2": "Upload a file, share your screen, or provide a video link",
+      "step3": "Create a room and share the link with your partner"
+    },
+    "modes": {
+      "name": {
+        "host": "Host Mode",
+        "client": "Client Mode"
+      },
+      "description": {
+        "host": "You may create a room and share video streams with others in real-time.",
+        "client": "You may join a room created by others and watch video streams in sync."
+      },
+      "combinedDescription": {
+        "hostP2P": "Choose a video file from your device or share your screen to watch together with your partner in real-time.",
+        "hostSameOrigin": "Enter a web video link to watch synchronized media loaded directly from the source site.",
+        "client": "Enter the Room ID shared by your partner to join and watch their session in sync."
+      }
+    },
+    "methods": {
+      "name": {
+        "p2p": "Peer-to-Peer",
+        "sameOrigin": "Same-Origin"
+      }
+    },
+    "roomIDInput": {
+      "helper": {
+        "empty": "Please provide a Room ID.",
+        "invalid": "The Room ID format is invalid."
+      }
+    }
+  },
+  "StreamView": {
+    "title": "Stream",
+    "hint": {
+      "host": "Share link copied. Share the ID or URL with your partner.",
+      "client": "Searching for your partner on the internet. Please wait..."
+    },
+    "roleDescription": {
+      "host": "Room",
+      "client": "User"
+    },
+    "messages": {
+      "roomID": "Your {roleDescription} ID: {roomID}",
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "pushing": "Streaming {m} video",
+      "watching": "Watching video stream",
+      "joining": "Connecting to peer...",
+      "waiting": "Waiting for peer...",
+      "measuringLiteral": "Measuring",
+      "sameOriginLiteral": "same-origin",
+      "p2pLiteral": "peer-to-peer",
+      "delta": "Sync offset",
+      "latency": "Latency",
+      "shareLink": "Share Link",
+      "networkInfo": "Network Info",
+      "copiedToClipboard": "Copied to clipboard",
+      "selectionReset": "Media source reset",
+      "connectionRestricted": "Connection limited: Relay node unavailable",
+      "voiceCallEnabled": "Voice call enabled",
+      "voiceCallDisabled": "Voice call disabled",
+      "shutdown": {
+        "headline": "Session Ended",
+        "description": "Your partner has ended the session. You will be redirected to the home page.",
+        "confirmText": "OK"
+      }
+    },
+    "labels": {
+      "voiceToggle": "Voice Call",
+      "videoQuality": "Video Quality"
+    },
+    "qualityPresets": {
+      "low": "Low",
+      "medium": "Med",
+      "high": "High",
+      "ultra": "Ultra",
+      "unlimited": "Auto"
+    },
+    "qualityDescriptions": {
+      "detail": "{resolution}, {fps} fps, up to {bitrate}",
+      "unlimited": "No limits. Determined by browser."
+    }
+  }
+}
